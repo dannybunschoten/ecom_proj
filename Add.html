@@ -9,7 +9,22 @@
 </head>
 <body>
     <h1>Add new item</h1>
-    <h3></h3>
-    <h4></h4>
+    <div class="grid">
+        <p>Name:</p>
+        <input type="text" name="Item_name" id="Item_name" placeholder="Enter product name">
+        <p>Quantity:</p>
+        <input type="number" name="Item_quantity" id="Item_quantity" placeholder="Enter how many items you want to sell">
+        <p>Price per item:</p>
+        <input type="number" name="Item_Price" id="Item_Price" placeholder="Enter price per item">
+        <p>Color:</p>
+        <input type="color" name="Item_color" id="Item_color">
+        <p>Category:</p>
+        <input type="text" name="Item_Category" id="Item_Category" placeholder="Enter category">
+        <p>Description:</p>
+        <Textarea id="Item_Description" name="Item_Description" placeholder="Enter a fitting description for this item"></Textarea>
+    </div>
+    <div class="center">
+        <button id="Add_item_button">Save</button>
+    </div>
 </body>
 </html>
