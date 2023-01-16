@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="outline">
+        <div class="imagecontainer">
+            <img src="images/signin.png" alt="Sign In Image" class="image">
+        </div>
+        <div class="signincontainer">
+            <h1>Register</h1>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter Email" required>
+
+            <label for="psw">Password</label>
+            <input type="password" name="psw" placeholder="Enter Password" required>
+
+            <div class="grid">
+                <label for="fname">First Name</label>
+                <label for="lname">Last Name</label>
+                <input type="text" name="fname" placeholder="John" required>
+                <input type="text" name="lname" placeholder="Doe" required>
+            </div>
+            <div class="grid grid2">
+                <label for="fname">Street</label>
+                <label for="lname">House no.</label>
+                <input type="text" name="street" placeholder="Street" required>
+                <input class="houseno" type="number" name="number" placeholder="10" required>
+            </div>
+            <div class="grid grid3">
+                <label for="zipcode">Zip Code</label>
+                <label for="country">Country</label>
+                <input type="text" name="zipcode" placeholder="123456" required>
+                <input type="text" name="country" placeholder="The Netherlands" required>
+            </div>
+
+            <div class="buttoncontainer"><button type="submit"><b>Register</b></button></div>
+
+    </div>
+</body>
+</html>
