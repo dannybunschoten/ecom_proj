@@ -21,9 +21,6 @@ for(let input of inputs) {
         if(event.target.value.length - inputData[input.name].lastCharacterLength > 0) {
             change = event.target.value.length - inputData[input.name].lastCharacterLength;
         }
-        console.log(inputData[input.name].lastCharacterLength);
-        console.log(event.target.value.length);
-        console.log(change);
         inputData[input.name].lastCharacterLength = event.target.value.length;
         inputData[input.name].charactersTyped += change;
     });
